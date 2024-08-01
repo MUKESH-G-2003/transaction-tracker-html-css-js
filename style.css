@@ -1,0 +1,75 @@
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col2 div{
+    display: flex;
+    justify-content: end;
+}
+
+.div-button{
+    display: flex; 
+    padding: 20px;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.div-button button{
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: blue;
+    color: white;
+}
+.div-table{
+    background-color: skyblue;
+    padding: 20px;
+}
+table{
+    width: 100%;
+}
+
+button, #choose:hover{
+    cursor: pointer;
+}
+
+tr,td{
+    background-color:darkgrey;
+    color: black;
+    font-weight: 700;
+}
